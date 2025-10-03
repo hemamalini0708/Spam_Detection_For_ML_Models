@@ -41,34 +41,41 @@ Spam - whether in the form of emails, messages, etc. - is a nuisance. Thanks to 
  Consequently, we need custom data loaders that return lengths of each sequence along with sequences and labels.
 
  Plus, The data loader should sort the batch by each sequence's length and returns the longest one first in the batch to use torch's pack_padded_sequence() (you will see this     function in model code)
+
  
 <hr> 
+
 Using SVM = Train Accuracy_score = 0.9820877084620135  Test Accuracy_score = 0.921865154379332 
 
-<img src="/images/2.png" width="700" height="400">
- 
+<img width="263" height="192" alt="2" src="https://github.com/user-attachments/assets/0b2c27cf-111c-44c4-bddc-62aba39cc0b0" />
+   
 <hr>
  
 Using Naive Bayes = Train Accuracy_score = 0.9163063619518221  Test Accuracy_score = 0.8216761184625079 
 
-<img src="/images/3.png" width="700" height="400">
- 
+<img width="318" height="159" alt="3" src="https://github.com/user-attachments/assets/3ffb1c3a-33b5-44e6-b938-57184d474814" />
+
+   
 <hr>
  
 Using Logistic Regression = Train Accuracy_score = 0.9879555281037677  Test Accuracy_score = 0.9464398235664776 
 
-<img src="/images/4.jfif" width="700" height="400">
+<img width="249" height="203" alt="image" src="https://github.com/user-attachments/assets/143d065f-0f47-4453-a37e-4f3b42e7a6fd" />
+
  
 <hr>
  
 Using random Forest = Train Accuracy_score = 0.9984558369363805  Test Accuracy_score = 0.926591052299937 
  
-<img src="/images/5.png" width="700" height="400">
+<img width="257" height="196" alt="image" src="https://github.com/user-attachments/assets/1055a65a-23bf-47c1-a8c3-7da6b03d7e5d" />
+
+
 <hr>
  
 Using Decision Tree = Train Accuracy_score = 0.9984558369363805  Test Accuracy_score = 0.9117832388153749 
 
-<img src="/images/6.PNG" width="700" height="400">
+<img width="542" height="272" alt="image" src="https://github.com/user-attachments/assets/3fb4f8ef-136e-46d5-bd55-d2d4e49e65b7" />
+
 
  <hr>
  
